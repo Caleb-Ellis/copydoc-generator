@@ -93,7 +93,8 @@ def get_doc_requests(patterns):
 def handle_hero(pattern):
     title = pattern['title']
     description = pattern['body_text']
-    return [make_hero_title(title), make_hero_description(description), make_inline_image('https://www.gstatic.com/images/branding/product/1x/docs_64dp.png')]
+    image_src = pattern['image_src']
+    return [make_hero_title(title), make_hero_description(description), make_inline_image(image_src)]
 
 def handle_matrix(pattern):
     title = pattern['matrix_items'][0]['title']
@@ -242,7 +243,7 @@ def make_hero_table(text):
 def make_inline_image(url):
     global index
     img_length = 1
-    prev_index = index + 4
+    prev_index = index + 6
     index += img_length
 
     end_index = prev_index + img_length

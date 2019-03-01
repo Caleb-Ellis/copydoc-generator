@@ -10,19 +10,16 @@ export default (
           broken nicely&gt;
         </h1>
         <p>
-          Ubuntu is the reference platform for Kubernetes on all major public
-          clouds, including official support in Google’s GKE, Microsoft’s AKS
-          and Amazon’s EKS CAAS offerings. We deliver pure upstream Kubernetes
-          tested across the widest range of clouds &mdash; from public clouds to
-          private data centres, from bare metal to virtualized infrastructure.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+          officia doloremque aspernatur soluta quidem eos dolor laudantium
+          recusandae explicabo, labore excepturi consequuntur, deserunt,
+          veritatis ab alias unde velit amet illum fugiat ipsa. Laborum et
+          blanditiis aspernatur dolorem odit assumenda porro enim minus ad quod,
+          beatae obcaecati quae corporis quos eveniet.
         </p>
       </div>
       <div className="col-4 prefix-1 u-align--center u-hide--small">
-        <img
-          src="https://assets.ubuntu.com/v1/dba11aee-kubernetes.svg?w=275"
-          alt=""
-          width="275"
-        />
+        <img src="https://via.placeholder.com/275" alt="" width="275" />
       </div>
     </div>
   </div>

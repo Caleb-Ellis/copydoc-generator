@@ -52,7 +52,11 @@ const stripExamples = [
     type: "hero",
     name: "Basic with image",
     description: "Basic hero strip with an image of the product/service",
-    jsx: markup.HeroBasic
+    jsx: markup.HeroBasic,
+    title: "Headline in six words broken nicely",
+    bodyText:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officia doloremque aspernatur soluta quidem eos dolor laudantium recusandae explicabo, labore excepturi consequuntur, deserunt, veritatis ab alias unde velit amet illum fugiat ipsa. Laborum et blanditiis aspernatur dolorem odit assumenda porro enim minus ad quod, beatae obcaecati quae corporis quos eveniet.",
+    imageSrc: "https://via.placeholder.com/275"
   },
   {
     type: "hero",

@@ -27,6 +27,7 @@ class App extends Component {
 
   createCopydoc = () => {
     const { strips } = this.state;
+    console.log(strips);
 
     if (strips.length) {
       this.setState({ loading: true });
@@ -35,9 +36,14 @@ class App extends Component {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({
-          heading: strips[0].name
-        })
+        body: JSON.stringify([
+          {
+            type: strips[0].type,
+            title: strips[0].title,
+            body_text: strips[0].bodyText,
+            image_src: strips[0].imageSrc
+          }
+        ])
       }).then(
         response => {
           this.setState({ loading: false });
