@@ -30,6 +30,7 @@ const GlobalNav = ({
           type="button"
           onClick={() => createCopydoc()}
           className="p-button--positive"
+          style={{ width: "144px" }}
         >
           {loading ? (
             <i className="p-icon--spinner is-light u-animation--spin" />
